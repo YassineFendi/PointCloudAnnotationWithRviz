@@ -1,0 +1,8 @@
+prefix=/home/liyou/CAT/src-build/devel
+
+Name: pack
+Description: Description of pack
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/liyou/CAT/src-build/devel/lib 
+Requires: 

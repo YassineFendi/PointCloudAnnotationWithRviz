@@ -1,0 +1,2 @@
+pack
+-DCATKIN_DEVEL_PREFIX=/home/liyou/CAT/devel -DCMAKE_INSTALL_PREFIX=/home/liyou/CAT/install -G Unix Makefiles
