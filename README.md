@@ -9,7 +9,7 @@ The input is a PCD file with fields : x,y,z,rgb intensity and id.
 
 The output is a PCD file with fields : x,y,z,rxy,ith,jth,intensity and id. (rxy,ith,jth are not considered for now).
 
-Previously, a ground segmentation and objects clustering program was implemented to the bag that contain Data. In the proposed annotation tool, we used only clustered data of non-ground objects. We convert the bag file data that contain the clustered objects to PCD files. When loading a PCD file, the program convert all the point cloud to interactive markers. So that we can interact with the point cloud on Rviz.
+Previously, a ground segmentation and objects clustering program was executed on the bag that contain Data. In the proposed annotation tool, we used only clustered data of non-ground objects. We convert the bag file data that contain the clustered objects to PCD files. When loading a PCD file, the program convert all the point cloud to interactive markers. So that we can interact with the point cloud on Rviz.
 The user can select any object on the point cloud, with a simple mouse click in Rviz interface. The selected object will be automatically saved separately.     
 Multiple objects can be selected in the same scene and can be saved to the same category. 
 
